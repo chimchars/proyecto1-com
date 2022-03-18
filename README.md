@@ -54,38 +54,32 @@ Para poder ver la presición de cada método, fuimos achicando el valor de “h�
 
 
 ## Uso
-1. Entrar a la página de [Mathworks](https://la.mathworks.com/products/matlab-online.html?requestedDomain=) para poder utilizar Matlab Online.
-
-2.  Hacer click derecho en “Empiece a utilizar MATLAB ONLINE”.
+1. Descargar el archivo [conclusioneslivescript.mlx](https://github.com/luciarenata/proyecto1-com/blob/main/conclusioneslivescript.mlx) de este repositorio. 
+2. Entrar a la página de [Mathworks](https://la.mathworks.com/products/matlab-online.html?requestedDomain=) para poder utilizar Matlab Online.
+3. Hacer click derecho en “Empiece a utilizar MATLAB ONLINE”.
 <p align="center">
   <img width="800" src="https://lh3.googleusercontent.com/5sdlrIhrJrUYZfLchqte3RpCbIRW0pqJOeEJrsWx3i-QlcDCPEUes8GyIM5kk8jyx0_xXSjLcbg6BzxfPLQv_GUA26vATdG2MY6FdmkIdnJrqf3W1pFYguk1pC4igd020yvPilWT" alt="Página de inicio de Matlab Online.">
 </p>
 <p align="center"><sub> Imagen 2 </sub></p>
-
-3.  A continuación se le pedirá ingresar sus datos de acceso para Matlab. En caso de que no cuente con una cuenta de Matlab, deberá crear una. (Es indispensable que cuente con una licencia de Matlab).
-
-4.  Descargar el archivo .mlx del proyecto en su ordenador.
-
-5.  Subir el archivo .mlx en [Matlab Drive.](https://drive.matlab.com/files/) Esto se puede hacer a través de un ‘Drag and Drop’ o, alternativamente, utilizando la opción de “Upload” en la parte superior izquierda. 
+4. A continuación se le pedirá ingresar sus datos de acceso para Matlab. En caso de que no cuente con una cuenta de Matlab, deberá crear una. (Es indispensable que cuente con una licencia de Matlab).
+5. Descargar el archivo .mlx del proyecto en su ordenador.
+6. Subir el archivo .mlx en [Matlab Drive.](https://drive.matlab.com/files/) Esto se puede hacer a través de un ‘Drag and Drop’ o, alternativamente, utilizando la opción de “Upload” en la parte superior izquierda. 
 <p align="center">
   <img width="800" src="https://lh5.googleusercontent.com/u9dSL-YBnkxW9DTOFOlPtiR0lZF7Iuz9tYVqYSno5aEVwiMiLooyPEH_r1pS7kCsTmEeFhThStDvx0etDF2MWOEaM_jzDriWT-2v95_jVbnZStPs9aEOE-08GHuDPDPs2a2UWUF6" alt="">
 </p>
 <p align="center"><sub> Imagen 3 </sub></p>
-
-6.  Regresar a Matlab Online y refrescar la página. El proyecto ahora deberá aparecer en la barra izquierda. Haga doble click derecho sobre el proyecto para abrirlo.
+7. Regresar a Matlab Online y refrescar la página. El proyecto ahora deberá aparecer en la barra izquierda. Haga doble click derecho sobre el proyecto para abrirlo.
 
 <p align="center">
   <img width="800" src="https://lh3.googleusercontent.com/8jaZAUeQ_02lwLQJRBnbkUVohZY1ZGWmJ4fdTYtkcABnX1e5qqWBb9xs74DdHkoZ5laLwh9BisJZF2GmnIIwHwEMG9bTv62FEob2gOhi0LrrdDLIDy3Fj-88HriLi1gorOPbAAQP" alt="">
 </p>
 <p align="center"><sub> Imagen 4 </sub></p>
-
-7.  Para correr el programa, haga click derecho en el botón de “Run” en la barra superior.
+8. Para correr el programa, haga click derecho en el botón de “Run” en la barra superior.
 <p align="center">
   <img width="800" src="https://lh3.googleusercontent.com/y_rRE_vC_tGJpEFXbvveyyztUL1N83jzpzCyhCCxvhDyxbLqaN2VAdayzY3lD2ajUv4QPgvXaKkSfK68jZ_leAUb2fh5gM3xPaBlJB1-_x7JmhjNjYNfKib0KAKLSv6S95PGRidw" alt="">
 </p>
 <p align="center"><sub> Imagen 5 </sub></p>
-
-8.  Se abrirá una pestaña a la derecha con los resultados del LiveScript. Aquí podrá navegar los resultados y las gráficas de las pruebas realizadas.
+9. Se abrirá una pestaña a la derecha con los resultados del LiveScript. Aquí podrá navegar los resultados y las gráficas de las pruebas realizadas.
 <p align="center">
   <img width="800" src="https://lh6.googleusercontent.com/higQHv01eDa0ZGapSvNGqkm1XNjNNAFdXy6UgI4zl-Mbh97oOgRK3o2wi7EFI3tXaBxxnaCNDqRqCD9lXTuWPSxmQt4T1UYViIgnyuiEpS6U2UV751H8j1TGofMtUrxGD9R_z1cS" alt="">
 </p>
