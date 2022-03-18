@@ -20,7 +20,7 @@ Hicimos este proyecto en febrero de 2022 para la clase de Algoritmos Numéricos 
 Para facilitar la colaboración y la distribución del proyecto se utilizó Matlab Online, al cual se puede acceder desde cualquier ordenador y a través de cualquier explorador siempre y cuando se cuente con una licencia de Matlab.
 
 ## Problemática a resolver
-Los métodos de diferenciación son maneras de calcular la derivada de una función. No son tan exactos ni precisos como otros métodos pero se siguen usando en campos matemáticos (e.g. la resolución de ecuaciones diferenciales). Hay diferentes métodos, todos entre ellos parecidos y con pequeñas diferencias entre sí, así como diferentes maneras de calcularlos. Sus resultados son aproximaciones del valor real de la derivada de la función dada. Usamos este proyecto para encontrar el método de diferenciación numérica más exacto.
+Los métodos de diferenciación son maneras de calcular la derivada de una función. No son tan exactos ni precisos como otros métodos pero se siguen usando en campos matemáticos (e.g. la resolución de ecuaciones diferenciales). Hay diferentes métodos, todos entre ellos parecidos y con pequeñas diferencias entre sí, así como diferentes maneras de calcularlos. Sus resultados son aproximaciones del valor real de la derivada de la función dada ya que son cocientes y las diferencias entre los numeradores y denominadores suelen resultar en inestabilidad. Usamos este proyecto para encontrar el método de diferenciación numérica más exacto.
 
 ## Métodos de diferenciación numérica utilizados
 Los tres métodos de diferenciación numérica más comunes son los de diferenciación hacia atrás, diferenciación hacia adelante y diferenciación centrada, llamados así por los valores iniciales que toman. Las primeras y segundas derivadas hacia adelante, centradas y hacia atrás se pueden calcular usando diferencias finitas o usando coeficientes. En este proyecto calculamos cuatro funciones por método; como teníamos tres métodos (hacia adelante, hacia atrás y centrada), dos maneras de calcularlos (diferencias finitas y coeficientes) y dos grados de derivadas (primera y segunda derivada), acabamos utilizando doce funciones en total.
@@ -37,13 +37,13 @@ La Imagen 1 muestra las fórmulas que utilizamos para calcular, usando diferenci
 </p>
 <p align="center"><sub> Imagen 1 </sub></p>
 
-Todas las fórmulas utilizadas son cocientes, al igual que las fórmulas de la Imagen 1. 
+Las doce fórmulas son cocientes que tienen a “h” como denominador. 
 
 
 ## Método
 
-Tomamos las fórmulas de diferenciación numérica y las programamos en el lenguaje MATLAB. Revisamos que fueran correctas utilizando la función de derivación de Matlab llamada "diff" y comparándola con nuestro resultado, calculando el error de la función a partir de la diferencia entre ambas cifras. 
-Para poder ver la presición de cada método, fuimos achicando el valor de “h”. Esto muestra cómo existe un valor óptimo de H para cada fórmula, lo que permite reducir el error de cada método a un mínimo. Desplegamos este error en una pequeña tabla y lo graficamos en escala logarítmica para ver su variación a medida que “h” se hacía más pequeño. 
+Tomamos las fórmulas de diferenciación numérica y las programamos en el lenguaje MATLAB. Revisamos que fueran correctas utilizando la función de derivación de Matlab llamada “diff” y comparándola con nuestro resultado, calculando el error de la función a partir de la diferencia entre ambas cifras. 
+Para poder ver la presición de cada método, fuimos achicando el valor de “h”. Hicimos once ciclos en donde achicábamos “h” por un valor de 10<super>-1</super> por ciclo. Esto muestra cómo existe un valor óptimo de H para cada fórmula, lo que permite reducir el error de cada método a un mínimo. Desplegamos este error en una pequeña tabla y lo graficamos en escala logarítmica para ver su variación a medida que “h” se hacía más pequeño. 
 
 <p align="center">
   <img width="800" src="https://github.com/luciarenata/proyecto1-com/blob/main/image.png" alt="Gráfica usando los 3 métodos diferentes">
@@ -87,3 +87,5 @@ Para poder ver la presición de cada método, fuimos achicando el valor de “h�
   <img width="800" src="https://lh6.googleusercontent.com/higQHv01eDa0ZGapSvNGqkm1XNjNNAFdXy6UgI4zl-Mbh97oOgRK3o2wi7EFI3tXaBxxnaCNDqRqCD9lXTuWPSxmQt4T1UYViIgnyuiEpS6U2UV751H8j1TGofMtUrxGD9R_z1cS" alt="">
 </p>
 <p align="center"><sub> Imagen 6 </sub></p>
+
+## Conclusiones
