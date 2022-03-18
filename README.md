@@ -49,6 +49,7 @@ Para facilitar la colaboración y la distribución del proyecto se utilizó Matl
 </p>
 
 8.  Se abrirá una pestaña a la derecha con los resultados del LiveScript. Aquí podrá navegar los resultados y las gráficas de las pruebas realizadas.
+![](https://lh6.googleusercontent.com/higQHv01eDa0ZGapSvNGqkm1XNjNNAFdXy6UgI4zl-Mbh97oOgRK3o2wi7EFI3tXaBxxnaCNDqRqCD9lXTuWPSxmQt4T1UYViIgnyuiEpS6U2UV751H8j1TGofMtUrxGD9R_z1cS)
 
 ## Problemática a resolver
 Los métodos de diferenciación son maneras de calcular la derivada de una función. No son tan exactos ni precisos como otros métodos pero se siguen usando en campos matemáticos (e.g. la resolución de ecuaciones diferenciales). Hay diferentes métodos, todos entre ellos parecidos y con pequeñas diferencias entre sí, así como diferentes maneras de calcularlos. Sus resultados son aproximaciones del valor real de la derivada de la función dada. Usamos este proyecto para encontrar el método de diferenciación numérica más exacto.
