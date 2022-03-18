@@ -42,6 +42,11 @@ La siguiente imagen muestra las fórmulas que utilizamos para calcular, usando d
 Tomamos las fórmulas de diferenciación numérica y las programamos en el lenguaje MATLAB. Revisamos que fueran correctas utilizando la función de derivación de Matlab llamada "diff" y comparándola con nuestro resultado, calculando el error de la función a partir de la diferencia entre ambas cifras. 
 Para poder ver la presición de cada método, fuimos achicando el valor de “h”. Esto muestra cómo existe un valor óptimo de H para cada fórmula, lo que permite reducir el error de cada método a un mínimo. Desplegamos este error en una pequeña tabla y lo graficamos en escala logarítmica para ver su variación a medida que “h” se hacía más pequeño. 
 
+<p align="center">
+  <img width="800" src="https://github.com/luciarenata/proyecto1-com/blob/main/image.png" alt="Gráfica usando los 3 métodos diferentes">
+</p>
+<p align="center"><sub> Diagrama 1 </sub></p>
+
 ## Uso
 1. Entrar a la página de [Mathworks](https://la.mathworks.com/products/matlab-online.html?requestedDomain=) para poder utilizar Matlab Online.
 
