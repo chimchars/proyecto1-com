@@ -42,6 +42,9 @@ diagrama
 
 Tomamos las fórmulas de diferenciación numérica vistas en clase y las programamos en el lenguaje MATLAB. (diagrama + tantito código de una formula)
 
+![Diagrama que enseña los tres métodos de diferenciación numérica, las dos formas de calcularlos, y las derivadas que permiten calcular.](https://github.com/luciarenata/proyecto1-com/blob/main/diagrama.png)
+Diagrama 1
+
 Ejemplo de una gráfica
 
 ## Conclusiones
