@@ -8,6 +8,8 @@
 - [Métodos de diferenciación numérica utilizados](https://github.com/luciarenata/proyecto1-com#m%C3%A9todos-de-diferenciaci%C3%B3n-num%C3%A9rica-utilizados)
 - [Método](https://github.com/luciarenata/proyecto1-com#m%C3%A9todo)
 - [Uso](https://github.com/luciarenata/proyecto1-com#uso)
+- [Conclusiones](https://github.com/luciarenata/proyecto1-com#conclusiones)
+
 
 ## Objetivo del proyecto
 Hicimos este proyecto en febrero de 2022 para la clase de Algoritmos Numéricos por Computadora del Instituto Tecnológico Autónomo de México. Esta clase resuelve problemas matemáticos con herramientas de computación. El proyecto consiste en tomar doce métodos de diferenciación numérica, programarlos en el lenguaje de programación MATLAB y encontrar el que mejor calcula la derivada de una función dada. Este documento explica cómo lo hicimos, para qué funciona y qué concluimos.
