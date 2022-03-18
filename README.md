@@ -92,4 +92,4 @@ Para poder ver la presición de cada método, fuimos achicando el valor de “h�
 <p align="center"><sub> Imagen 6 </sub></p>
 
 ## Conclusiones
-Este proyecto permite ver que el método óptimo de diferenciación numérica es el de diferencias centradas. Es el que menor error presenta. 
+Este proyecto permite ver que el método óptimo de diferenciación numérica es el de diferencias centradas usando coeficientes tanto para la primera como para la segunda derivada. Es el que menor error presenta. 
