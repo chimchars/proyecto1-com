@@ -1,5 +1,16 @@
 # <div align="center"> Encontrar el mejor método de diferenciación numérica usando MATLAB </div>
 
+## Tabla de contenidos
+-[Objetivo del proyecto](https://github.com/luciarenata/proyecto1-com#objetivo-del-proyecto).
+-[Tecnologías usadas](https://github.com/luciarenata/proyecto1-com#tecnolog%C3%ADas-usadas).
+-[Setup](https://github.com/luciarenata/proyecto1-com#setup).
+-[Uso](https://github.com/luciarenata/proyecto1-com#uso).
+-[Problemática a resolver](https://github.com/luciarenata/proyecto1-com#problem%C3%A1tica-a-resolver).
+-[Métodos de diferenciación numérica utilizados](https://github.com/luciarenata/proyecto1-com#m%C3%A9todos-de-diferenciaci%C3%B3n-num%C3%A9rica-utilizados).
+-[Método](https://github.com/luciarenata/proyecto1-com#m%C3%A9todo).
+-[Conclusiones](https://github.com/luciarenata/proyecto1-com#conclusiones).
+
+
 ## Objetivo del proyecto
 Hicimos este proyecto en febrero de 2022 para la clase de Algoritmos Numéricos por Computadora del Instituto Tecnológico Autónomo de México. Esta clase resuelve problemas matemáticos con herramientas de computación. El proyecto consiste en tomar doce métodos de diferenciación numérica, programarlos en el lenguaje de programación MATLAB y encontrar el que mejor calcula la derivada de una función dada. Este documento explica cómo lo hicimos, para qué funciona y qué concluimos.
 
@@ -39,6 +50,7 @@ Los métodos de diferenciación son maneras de calcular la derivada de una funci
 Como mencionamos previamente, hay varios métodos de diferenciación numérica. Los tres más comunes son los de diferenciación hacia atrás, diferenciación hacia adelante y diferenciación centrada, llamados así por los valores iniciales que toman. Ahora, las primeras y segundas derivadas hacia adelante, centradas y hacia atrás se pueden calcular usando diferencias finitas o usando coeficientes. Entonces calculamos cuatro funciones por método; como teníamos tres métodos, acabamos con doce funciones en total.
 
 ![Diagrama que enseña los tres métodos de diferenciación numérica, las dos formas de calcularlos, y las derivadas que permiten calcular.](https://github.com/luciarenata/proyecto1-com/blob/main/diagrama.png)
+
 
 La siguiente imagen muestra las fórmulas que utilizamos para calcular, usando diferencias finitas, las primeras derivadas hacia delante, central y hacia atrás.
 
