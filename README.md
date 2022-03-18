@@ -43,12 +43,13 @@ Las doce fórmulas son cocientes que tienen a “h” como denominador.
 ## Método
 
 Tomamos las fórmulas de diferenciación numérica y las programamos en el lenguaje MATLAB. Revisamos que fueran correctas utilizando la función de derivación de Matlab llamada “diff” y comparándola con nuestro resultado, calculando el error de la función a partir de la diferencia entre ambas cifras. 
-Para poder ver la presición de cada método, fuimos achicando el valor de “h”. Hicimos once ciclos en donde achicábamos “h” por un valor de 10<super>-1</super> por ciclo. Esto muestra cómo existe un valor óptimo de H para cada fórmula, lo que permite reducir el error de cada método a un mínimo. Desplegamos este error en una pequeña tabla y lo graficamos en escala logarítmica para ver su variación a medida que “h” se hacía más pequeño. 
+Para poder ver la presición de cada método, fuimos achicando el valor de “h”. Hicimos once ciclos en donde achicábamos “h” por un valor de 10<sup>-1</sup> por ciclo. Esto muestra cómo existe un valor óptimo de H para cada fórmula, lo que permite reducir el error de cada método a un mínimo. Desplegamos este error en una pequeña tabla y lo graficamos en escala logarítmica para ver su variación a medida que “h” se hacía más pequeño. 
 
 <p align="center">
   <img width="800" src="https://github.com/luciarenata/proyecto1-com/blob/main/image.png" alt="Gráfica usando los 3 métodos diferentes">
 </p>
 <p align="center"><sub> Gráfica 1 </sub></p>
+
 
 ## Uso
 1. Entrar a la página de [Mathworks](https://la.mathworks.com/products/matlab-online.html?requestedDomain=) para poder utilizar Matlab Online.
@@ -89,3 +90,4 @@ Para poder ver la presición de cada método, fuimos achicando el valor de “h�
 <p align="center"><sub> Imagen 6 </sub></p>
 
 ## Conclusiones
+Este proyecto permite ver que el método óptimo de diferenciación numérica es el de diferencias centradas. Es el que menor error presenta. 
