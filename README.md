@@ -23,22 +23,30 @@ Para facilitar la colaboración y la distribución del proyecto se utilizó Matl
 ## Uso
 1. Entrar a la página de [Mathworks](https://la.mathworks.com/products/matlab-online.html?requestedDomain=) para poder utilizar Matlab Online.
 
-2.  Hacer click derecho en “Empiece a utilizar MATLAB ONLINE”.![](https://lh6.googleusercontent.com/DLfxB9NrDTFDxw_8eNv1jf5KgeEaBO_BtP2IWhabE9zBM0_r4T6o7UxhOwY_y0PH7kS5-TduKswqoIJEKyNUzhtUi_aalC-PsXyr6akzHgjRqOpykyDMO2touUoQdXI8ZukwUEju)
+2.  Hacer click derecho en “Empiece a utilizar MATLAB ONLINE”.
+<p align="center">
+  <img width="800" src="https://lh3.googleusercontent.com/5sdlrIhrJrUYZfLchqte3RpCbIRW0pqJOeEJrsWx3i-QlcDCPEUes8GyIM5kk8jyx0_xXSjLcbg6BzxfPLQv_GUA26vATdG2MY6FdmkIdnJrqf3W1pFYguk1pC4igd020yvPilWT" alt="Página de inicio de Matlab Online.">
+</p>
 
 3.  A continuación se le pedirá ingresar sus datos de acceso para Matlab. En caso de que no cuente con una cuenta de Matlab, deberá crear una. (Es indispensable que cuente con una licencia de Matlab).
 
 4.  Descargar el archivo .mlx del proyecto en su ordenador.
 
 5.  Subir el archivo .mlx en [Matlab Drive.](https://drive.matlab.com/files/) Esto se puede hacer a través de un ‘Drag and Drop’ o, alternativamente, utilizando la opción de “Upload” en la parte superior izquierda. 
-
-![](https://lh3.googleusercontent.com/0LqntlhKPT2cSOximB-Polh_Lle9seDtr14VU5nAcpybSS74j5G1wBRjrVUTmDMPbRel_wFMdMARGfrXVZjMbTKbBL-hS6JbXqD5PLbfa6sszMhMzy-kUOmJE5wpaLknDL7PEI5p)
+<p align="center">
+  <img width="800" src="https://lh5.googleusercontent.com/u9dSL-YBnkxW9DTOFOlPtiR0lZF7Iuz9tYVqYSno5aEVwiMiLooyPEH_r1pS7kCsTmEeFhThStDvx0etDF2MWOEaM_jzDriWT-2v95_jVbnZStPs9aEOE-08GHuDPDPs2a2UWUF6" alt="">
+</p>
 
 6.  Regresar Matlab Online y refrescar la página. El proyecto ahora deberá aparecer en la barra izquierda. Haga doble click derecho sobre el proyecto para abrirlo.
 
-![](https://lh3.googleusercontent.com/8jaZAUeQ_02lwLQJRBnbkUVohZY1ZGWmJ4fdTYtkcABnX1e5qqWBb9xs74DdHkoZ5laLwh9BisJZF2GmnIIwHwEMG9bTv62FEob2gOhi0LrrdDLIDy3Fj-88HriLi1gorOPbAAQP)
+<p align="center">
+  <img width="800" src="https://lh3.googleusercontent.com/8jaZAUeQ_02lwLQJRBnbkUVohZY1ZGWmJ4fdTYtkcABnX1e5qqWBb9xs74DdHkoZ5laLwh9BisJZF2GmnIIwHwEMG9bTv62FEob2gOhi0LrrdDLIDy3Fj-88HriLi1gorOPbAAQP" alt="">
+</p>
 
 7.  Para correr el programa, haga click derecho en el botón de “Run” en la barra superior.
-![](https://lh5.googleusercontent.com/yzac_8IrQBMM3q9LCNb9mn7Xw8EmhxIvJj3oMQduUBszEsQjxw-p23EkD9Juu63BImn4fAH5pomTbcvKlPyKppp8Xhha71jgGnkZEBhJdUOABHmAAH42-LnSNYhRrk797-7939GN)
+<p align="center">
+  <img width="800" src="https://lh3.googleusercontent.com/y_rRE_vC_tGJpEFXbvveyyztUL1N83jzpzCyhCCxvhDyxbLqaN2VAdayzY3lD2ajUv4QPgvXaKkSfK68jZ_leAUb2fh5gM3xPaBlJB1-_x7JmhjNjYNfKib0KAKLSv6S95PGRidw" alt="">
+</p>
 
 8.  Se abrirá una pestaña a la derecha con los resultados del LiveScript. Aquí podrá navegar los resultados y las gráficas de las pruebas realizadas.
 
@@ -48,13 +56,19 @@ Los métodos de diferenciación son maneras de calcular la derivada de una funci
 ## Métodos de diferenciación numérica utilizados
 Como mencionamos previamente, hay varios métodos de diferenciación numérica. Los tres más comunes son los de diferenciación hacia atrás, diferenciación hacia adelante y diferenciación centrada, llamados así por los valores iniciales que toman. Ahora, las primeras y segundas derivadas hacia adelante, centradas y hacia atrás se pueden calcular usando diferencias finitas o usando coeficientes. Entonces calculamos cuatro funciones por método; como teníamos tres métodos, acabamos con doce funciones en total.
 
-![Diagrama que enseña los tres métodos de diferenciación numérica, las dos formas de calcularlos, y las derivadas que permiten calcular.](https://github.com/luciarenata/proyecto1-com/blob/main/diagrama.png)
 
-<sub> Diagrama 1 </sub>
+<p align="center">
+  <img width="800" src="https://github.com/luciarenata/proyecto1-com/blob/main/diagrama.png" alt="Diagrama que enseña los tres métodos de diferenciación numérica, las dos formas de calcularlos, y las derivadas que permiten calcular.">
+</p>
+<p align="center"><sub> Diagrama 1 </sub></p>
 
 La siguiente imagen muestra las fórmulas que utilizamos para calcular, usando diferencias finitas, las primeras derivadas hacia delante, central y hacia atrás.
 
-![Fórmulas de las primeras derivadas usando el método de diferencias finitas.](https://github.com/luciarenata/proyecto1-com/blob/main/formulasDFPD.png)
+<p align="center">
+  <img width="500" src="https://github.com/luciarenata/proyecto1-com/blob/main/formulasDFPD.png" alt="Fórmulas de las primeras derivadas usando el método de diferencias finitas.">
+</p>
+<p align="center"><sub> Imagen 7 </sub></p>
+
 
 
 ## Método
