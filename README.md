@@ -45,7 +45,7 @@ Para poder ver la presición de cada método, fuimos achicando el valor de “h�
 <p align="center">
   <img width="800" src="https://github.com/luciarenata/proyecto1-com/blob/main/image.png" alt="Gráfica usando los 3 métodos diferentes">
 </p>
-<p align="center"><sub> Diagrama 1 </sub></p>
+<p align="center"><sub> Gráfica 1 </sub></p>
 
 ## Uso
 1. Entrar a la página de [Mathworks](https://la.mathworks.com/products/matlab-online.html?requestedDomain=) para poder utilizar Matlab Online.
