@@ -36,14 +36,17 @@ Para facilitar la colaboración y la distribución del proyecto se utilizó Matl
 Los métodos de diferenciación son maneras de calcular la derivada de una función. No son tan exactos ni precisos como otros métodos pero se siguen usando en campos matemáticos (e.g. la resolución de ecuaciones diferenciales). Hay diferentes métodos, todos entre ellos parecidos y con pequeñas diferencias entre sí. Usamos este proyecto para encontrar el método de diferenciación numérica más exacto.
 
 ## Métodos de diferenciación numérica utilizados
-diagrama
+Como mencionamos previamente, hay varios métodos de diferenciación numérica. Los tres más comunes son los de diferenciación hacia atrás, diferenciación hacia adelante y diferenciación centrada, llamados así por los valores iniciales que toman. Ahora, las primeras y segundas derivadas hacia adelante, centradas y hacia atrás se pueden calcular usando diferencias o usando coeficientes. 
+
+![Diagrama que enseña los tres métodos de diferenciación numérica, las dos formas de calcularlos, y las derivadas que permiten calcular.](https://github.com/luciarenata/proyecto1-com/blob/main/diagrama.png)
+
+Diagrama 1
 
 ## Método
 
 Tomamos las fórmulas de diferenciación numérica vistas en clase y las programamos en el lenguaje MATLAB. (diagrama + tantito código de una formula)
 
-![Diagrama que enseña los tres métodos de diferenciación numérica, las dos formas de calcularlos, y las derivadas que permiten calcular.](https://github.com/luciarenata/proyecto1-com/blob/main/diagrama.png)
-Diagrama 1
+
 
 Ejemplo de una gráfica
 
