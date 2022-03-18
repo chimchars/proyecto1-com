@@ -23,19 +23,21 @@ Para facilitar la colaboración y la distribución del proyecto se utilizó Matl
 Los métodos de diferenciación son maneras de calcular la derivada de una función. No son tan exactos ni precisos como otros métodos pero se siguen usando en campos matemáticos (e.g. la resolución de ecuaciones diferenciales). Hay diferentes métodos, todos entre ellos parecidos y con pequeñas diferencias entre sí, así como diferentes maneras de calcularlos. Sus resultados son aproximaciones del valor real de la derivada de la función dada. Usamos este proyecto para encontrar el método de diferenciación numérica más exacto.
 
 ## Métodos de diferenciación numérica utilizados
-Como mencionamos previamente, hay varios métodos de diferenciación numérica. Los tres más comunes son los de diferenciación hacia atrás, diferenciación hacia adelante y diferenciación centrada, llamados así por los valores iniciales que toman. Ahora, las primeras y segundas derivadas hacia adelante, centradas y hacia atrás se pueden calcular usando diferencias finitas o usando coeficientes. Entonces calculamos cuatro funciones por método; como teníamos tres métodos, acabamos con doce funciones en total.
-
+Los tres métodos de diferenciación numérica más comunes son los de diferenciación hacia atrás, diferenciación hacia adelante y diferenciación centrada, llamados así por los valores iniciales que toman. Las primeras y segundas derivadas hacia adelante, centradas y hacia atrás se pueden calcular usando diferencias finitas o usando coeficientes. En este proyecto calculamos cuatro funciones por método; como teníamos tres métodos (hacia adelante, hacia atrás y centrada), dos maneras de calcularlos (diferencias finitas y coeficientes) y dos grados de derivadas (primera y segunda derivada), acabamos utilizando doce funciones en total.
 
 <p align="center">
   <img width="800" src="https://github.com/luciarenata/proyecto1-com/blob/main/diagrama.png" alt="Diagrama que enseña los tres métodos de diferenciación numérica, las dos formas de calcularlos, y las derivadas que permiten calcular.">
 </p>
 <p align="center"><sub> Diagrama 1 </sub></p>
 
-La siguiente imagen muestra las fórmulas que utilizamos para calcular, usando diferencias finitas, las primeras derivadas hacia delante, central y hacia atrás.
+La Imagen 1 muestra las fórmulas que utilizamos para calcular, usando diferencias finitas, las primeras derivadas hacia delante, centrales y hacia atrás.
 
 <p align="center">
   <img width="500" src="https://github.com/luciarenata/proyecto1-com/blob/main/formulasDFPD.png" alt="Fórmulas de las primeras derivadas usando el método de diferencias finitas.">
 </p>
+
+Todas las fórmulas utilizadas son cocientes, al igual que las fórmulas de la Imagen 1. 
+
 
 ## Método
 
@@ -64,7 +66,7 @@ Para poder ver la presición de cada método, fuimos achicando el valor de “h�
   <img width="800" src="https://lh5.googleusercontent.com/u9dSL-YBnkxW9DTOFOlPtiR0lZF7Iuz9tYVqYSno5aEVwiMiLooyPEH_r1pS7kCsTmEeFhThStDvx0etDF2MWOEaM_jzDriWT-2v95_jVbnZStPs9aEOE-08GHuDPDPs2a2UWUF6" alt="">
 </p>
 
-6.  Regresar Matlab Online y refrescar la página. El proyecto ahora deberá aparecer en la barra izquierda. Haga doble click derecho sobre el proyecto para abrirlo.
+6.  Regresar a Matlab Online y refrescar la página. El proyecto ahora deberá aparecer en la barra izquierda. Haga doble click derecho sobre el proyecto para abrirlo.
 
 <p align="center">
   <img width="800" src="https://lh3.googleusercontent.com/8jaZAUeQ_02lwLQJRBnbkUVohZY1ZGWmJ4fdTYtkcABnX1e5qqWBb9xs74DdHkoZ5laLwh9BisJZF2GmnIIwHwEMG9bTv62FEob2gOhi0LrrdDLIDy3Fj-88HriLi1gorOPbAAQP" alt="">
