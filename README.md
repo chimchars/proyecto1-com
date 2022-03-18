@@ -70,7 +70,6 @@ La siguiente imagen muestra las fórmulas que utilizamos para calcular, usando d
 <p align="center">
   <img width="500" src="https://github.com/luciarenata/proyecto1-com/blob/main/formulasDFPD.png" alt="Fórmulas de las primeras derivadas usando el método de diferencias finitas.">
 </p>
-<p align="center"><sub> Imagen 7 </sub></p>
 
 
 
