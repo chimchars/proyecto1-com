@@ -73,8 +73,6 @@ La siguiente imagen muestra las fórmulas que utilizamos para calcular, usando d
 
 ## Método
 
-Tomamos las fórmulas de diferenciación numérica y las programamos en el lenguaje MATLAB. Revisamos que fueran correctas utilizando la función de derivación de Matlab llamada "diff" y comparándola con nuestro resultado. 
-
-Ejemplo de una gráfica
+Tomamos las fórmulas de diferenciación numérica y las programamos en el lenguaje MATLAB. Revisamos que fueran correctas utilizando la función de derivación de Matlab llamada "diff" y comparándola con nuestro resultado. Por otr parte, para poder ver la presición de cada método, se fue achicando el valor de H. Esto permite observar cómo existe un valor óptimo de H para cada fórmula, que permite reducir el error de cada método a un mínimo. 
 
 ## Conclusiones
