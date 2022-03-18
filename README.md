@@ -49,6 +49,7 @@ Los métodos de diferenciación son maneras de calcular la derivada de una funci
 Como mencionamos previamente, hay varios métodos de diferenciación numérica. Los tres más comunes son los de diferenciación hacia atrás, diferenciación hacia adelante y diferenciación centrada, llamados así por los valores iniciales que toman. Ahora, las primeras y segundas derivadas hacia adelante, centradas y hacia atrás se pueden calcular usando diferencias finitas o usando coeficientes. Entonces calculamos cuatro funciones por método; como teníamos tres métodos, acabamos con doce funciones en total.
 
 ![Diagrama que enseña los tres métodos de diferenciación numérica, las dos formas de calcularlos, y las derivadas que permiten calcular.](https://github.com/luciarenata/proyecto1-com/blob/main/diagrama.png)
+
 <sub> Diagrama 1 </sub>
 
 La siguiente imagen muestra las fórmulas que utilizamos para calcular, usando diferencias finitas, las primeras derivadas hacia delante, central y hacia atrás.
