@@ -1,4 +1,5 @@
-# <div align="center"> Encontrar el mejor método de diferenciación numérica usando MATLAB </div>
+# <div align="center"> Diferenciación numérica con MATLAB </div>
+Este programa permite encontrar el mejor método de diferenciación numérica utilizando MATLAB.
 
 ## Tabla de contenidos
 - [Objetivo del proyecto](https://github.com/luciarenata/proyecto1-com#objetivo-del-proyecto)
